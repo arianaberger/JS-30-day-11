@@ -13,3 +13,6 @@ function togglePlay() {
     video.pause();
   }
 }
+
+video.addEventListener('click', togglePlay);
+toggle.addEventListener('click', togglePlay);
